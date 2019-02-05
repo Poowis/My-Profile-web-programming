@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <title>Contact me</title>
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-danger">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        My Profile
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="javascript:void(0);" data-target="#carousel" data-slide-to="0">My
+                            information</a>
+                        <a class="dropdown-item" href="javascript:void(0);" data-target="#carousel" data-slide-to="1">My
+                            education</a>
+                        <a class="dropdown-item" href="javascript:void(0);" data-target="#carousel" data-slide-to="2">My
+                            favorite foods</a>
+                        <a class="dropdown-item" href="javascript:void(0);" data-target="#carousel" data-slide-to="3">My
+                            favorite movies</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="javascript:void(0);">Contact me</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron-fluid">
+        <h2 class="text-center text-light my-4">Contact me</h2>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="surname">Surname</label>
+                            <input type="surname" class="form-control" id="surname" placeholder="Surname">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-2 col-lg-1">
+                            <label>Gender</label>
+                        </div>
+                        <div class="form-group col-sm-10 col-lg-11">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="male" name="gender" class="custom-control-input">
+                                <label class="custom-control-label" for="male">Male</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="female" name="gender" class="custom-control-input">
+                                <label class="custom-control-label" for="female">Female </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-2 col-lg-1">
+                            <label>Intention</label>
+                        </div>
+                        <div class="form-group col-sm-10 col-lg-11">
+                            <select class="custom-select" id="intention">
+                                <option selected>Choose...</option>
+                                <option value="chat">Chit chat</option>
+                                <option value="work">Work</option>
+                                <option value="financial">Financial</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="detail">Intention detail</label>
+                        <textarea class="form-control" id="detail" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sent request</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
