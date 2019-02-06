@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <title>My Profile</title>
+    <title>Home</title>
 </head>
 
 <body class="bg-dark">
@@ -20,21 +20,8 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="javascript:void(0);">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        My Profile
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="javascript:void(0);" data-target="#carousel" data-slide-to="0">My
-                            information</a>
-                        <a class="dropdown-item" href="javascript:void(0);" data-target="#carousel" data-slide-to="1">My
-                            education</a>
-                        <a class="dropdown-item" href="javascript:void(0);" data-target="#carousel" data-slide-to="2">My
-                            favorite foods</a>
-                        <a class="dropdown-item" href="javascript:void(0);" data-target="#carousel" data-slide-to="3">My
-                            favorite movies</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="my_profile.html">My Profile</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact_me.html">Contact me</span></a>
@@ -43,183 +30,43 @@
         </div>
     </nav>
 
-    <div id="carousel" class="carousel slide min-vh-100" data-interval="false">
-        <!-- <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-            <li data-target="#carousel" data-slide-to="2"></li>
-            <li data-target="#carousel" data-slide-to="3"></li>
-        </ol> -->
-        <div class="carousel-inner">
-
-            <div class="carousel-item active">
-                <div class="jumbotron-fluid">
-                    <h2 class="text-center text-light my-4">My information</h2>
-                </div>
-                <div class="container">
-                    <div class="card mb-4">
-                        <div class="row">
-                            <div class="col-lg-5 col-12">
-                                <img src="my_picture.jpg" class="card-img-top" alt="My picture">
-                            </div>
-                            <div class="col-lg-7 col-12">
-                                <div class="card-body">
-                                    <h5 class="card-title">Details</h5>
-                                    <table class="table">
-                                        <tr>
-                                            <th scope="row">Name</th>
-                                            <td>Poowis</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Surname</th>
-                                            <td>Kumpai</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Gender</th>
-                                            <td>Male</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Age</th>
-                                            <td>19</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
+    <div class="jumbotron-fluid mb-4 position-relative">
+        <img class="img-fluid" src="index.jpg" alt="">
+        <h1 class="position-absolute text-center text-light" style="top:50%; left:50%; transform: translate(-50%, -50%);">Welcome</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Header</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+                            doloribus iusto, dolor quis assumenda quia autem similique nisi dolorum repudiandae eveniet
+                            dicta earum esse praesentium quos temporibus. Nemo, deleniti natus.</p>
                     </div>
                 </div>
             </div>
-
-            <div class="carousel-item">
-                <div class="jumbotron-fluid">
-                    <h2 class="text-center text-light my-4">My education</h2>
-                </div>
-                <div class="container">
-                    <div class="card">
-                        <div class="card-body">
-                            <table class="table mb-0">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Level</th>
-                                        <th scope="col">School</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">Primary school</th>
-                                        <td>Prapamontree 2 School</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">High school</th>
-                                        <td>Triam Udom Suksa Pattanakarn School</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">University</th>
-                                        <td>King Mongkut's Institute of Technology Ladkrabang</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Header</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi facere
+                            dolores quia nesciunt repellat ab aut impedit laborum repudiandae mollitia adipisci, dolor
+                            ea nihil nulla eum dicta debitis inventore officiis.</p>
                     </div>
                 </div>
             </div>
-
-            <div class="carousel-item">
-                <div class="jumbotron-fluid">
-                    <h2 class="text-center text-light my-4">My favorite foods</h2>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-4 col-md-6">
-                            <div class="card mb-4">
-                                <img src="steak.jpg" class="card-img-top" alt="Steak">
-                                <div class="card-body">
-                                    <h5 class="card-title">Steak</h5>
-                                    <p class="card-text">A steak is a meat generally sliced across the muscle fibers,
-                                        potentially including a bone.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6">
-                            <div class="card mb-4">
-                                <img src="sushi.jpg" class="card-img-top" alt="Sushi">
-                                <div class="card-body">
-                                    <h5 class="card-title">Sushi</h5>
-                                    <p class="card-text">Sushi is a Japanese
-                                        dish of prepared vinegared rice, usually with some sugar and
-                                        salt, accompanying a variety of ingredients, such as seafood,
-                                        vegetables, and occasionally tropical fruits.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6">
-                            <div class="card mb-4">
-                                <img src="seafood.jpg" class="card-img-top" alt="Seafood">
-                                <div class="card-body">
-                                    <h5 class="card-title">Seafood</h5>
-                                    <p class="card-text">Seafood is any form of sea life regarded as food by humans.
-                                        Seafood prominently includes fish and shellfish.</p>
-                                </div>
-                            </div>
-                        </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Header</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                            voluptatem? Illo, ipsam alias ipsum accusamus sequi, aut corporis nulla aliquid iure cumque
+                            consequuntur minima dolor reprehenderit libero culpa quos. Quia!</p>
                     </div>
                 </div>
             </div>
-
-            <div class="carousel-item">
-                <div class="jumbotron-fluid">
-                    <h2 class="text-center text-light my-4">My favorite movies</h2>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-4 col-md-6">
-                            <div class="card mb-4">
-                                <img src="john_wick.jpg" class="card-img-top" alt="John Wick">
-                                <div class="card-body">
-                                    <h5 class="card-title">John Wick</h5>
-                                    <p class="card-text">An ex-hit-man comes out of retirement to track down the
-                                        gangsters that killed his dog and took everything from him.</p>
-                                    <a href="https://www.imdb.com/title/tt2911666/" class="btn btn-warning border border-dark font-weight-bold">IMDb</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6">
-                            <div class="card mb-4">
-                                <img src="john_wick_2.jpg" class="card-img-top" alt="John Wick 2">
-                                <div class="card-body">
-                                    <h5 class="card-title">John Wick: Chapter 2</h5>
-                                    <p class="card-text">After returning to the criminal underworld to repay a debt,
-                                        John Wick discovers that a large bounty has been put on his life.</p>
-                                    <a href="https://www.imdb.com/title/tt4425200/" class="btn btn-warning border border-dark font-weight-bold">IMDb</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6">
-                            <div class="card mb-4">
-                                <img src="polar.jpg" class="card-img-top" alt="polar">
-                                <div class="card-body">
-                                    <h5 class="card-title">Polar</h5>
-                                    <p class="card-text">The world's top assassin, Duncan Vizla, is settling into
-                                        retirement when his former employer marks him as a liability to the firm.
-                                        Against his will, he finds himself back in the game going head to head with an
-                                        army of younger killers.</p>
-                                    <a href="https://www.imdb.com/title/tt4139588/" class="btn btn-warning border border-dark font-weight-bold">IMDb</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
-        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
